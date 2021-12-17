@@ -18,7 +18,6 @@ soup = BeautifulSoup(html,'lxml')
 asin_number_list = soup.find_all("div", {"class":"s-result-item"})
 # print(asin_number_list)
 # print(asin_number_list[0])
-
 # print(asin_number_list[0].get('data-asin'))
 
 asins = []

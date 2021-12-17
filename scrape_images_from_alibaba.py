@@ -71,6 +71,7 @@ except:
 
 df2 = pd.DataFrame({'url' : urls, 'category':categories})
 
+
 # concat both the dataframes
 df = pd.concat([df1, df2])
 

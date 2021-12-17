@@ -44,6 +44,7 @@ print(product_actual_price_1[0].text.strip())
 print(discount_percent[0].text.strip())
 # print(product_image[0]['src'])
 # print(size[0])
+
 print("www.flipkart.com"+ main_product_page_1[0]['href'])
 
 print(len(product_name_1))

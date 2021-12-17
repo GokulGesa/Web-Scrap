@@ -4,7 +4,7 @@ import argparse
 import os
 import pandas as pd
 
-# add argument parser for passing the target folder for saving the images
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--saveto', help='Target directory to save the Images (default: images/', action='store', dest='dirName')
 parser.add_argument('--pages', help='No. of pages (default: 40', action='store', dest='last_pagination')

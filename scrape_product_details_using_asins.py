@@ -12,6 +12,7 @@ headers_std = {
 asins_df = pd.read_csv('ASINs.csv')
 # print(asins_df.head())
 
+
 asin_list = asins_df['ASIN']
 # print(asin_list)
 

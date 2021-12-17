@@ -27,7 +27,6 @@ ratings = soup.find_all("span",{"class":rating_class})
 no_of_ratings = soup.find_all('span',{'class':no_of_rat_class})
 main_page_urls = soup.find_all("a",{'class': main_page_url_class})
 
-
 print('amazon.in'+ main_page_urls[0].get('href').strip())
 
 print(len(product_names))
